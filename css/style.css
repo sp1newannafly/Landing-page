@@ -104,6 +104,33 @@ blockquote {
 
 /* Layout
 ----------------------------------------------------------------------------- */
+.fh5co-social {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+  }
+  .fh5co-social li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+  }
+  .fh5co-social li a {
+	font-size: 15px;
+	color: #fff;
+	padding: 10px 20px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	border-radius: 7px;
+  }
 .hello {
 	text-align: center;
 	margin-top: 10px;
@@ -725,7 +752,7 @@ textarea {
 .skills {
   width: 100%;
   max-width:600px;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .skill-name {
@@ -733,11 +760,11 @@ textarea {
   font-weight: 700;
   color: #000;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .skill-bar {
-  height: 14px;
+  height: 15px;
   background: #ffffff;
   border-radius: 3px;
 }
